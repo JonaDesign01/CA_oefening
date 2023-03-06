@@ -1,91 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-<head>
+    <link href="styles/reset.css" type="text/css" rel="stylesheet" />
+    <link href="styles/styles.css" type="text/css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://use.typekit.net/tqi6tdq.css" />
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script defer src="scripts/script.js"></script>
+  </head>
 
-  <meta charset="UTF-8" />
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <body>
+    <main>
+      <h1>Timeless Co.</h1>
 
-  <link href="styles/reset.css" type="text/css" rel="stylesheet">
-  <link href="styles/styles.css" type="text/css" rel="stylesheet">
-  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="https://use.typekit.net/tqi6tdq.css">
-  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-  <script defer src="scripts/script.js"></script>
+      <nav class="buttons">
+        <button class="main">
+          <a href="">Home</a>
+        </button>
 
-</head>
+        <button class="alt">
+          <a href="">Shop</a>
+        </button>
 
-<body>
+        <button class="alt">
+          <a href="">About</a>
+        </button>
+      </nav>
 
-  <main>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="images/horloge1.jpg" /></div>
+          <div class="swiper-slide"><img src="images/horloge2.jpg" /></div>
+          <div class="swiper-slide"><img src="images/horloge3.jpg" /></div>
+          <div class="swiper-slide"><img src="images/horloge4.jpg" /></div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
 
-    <h1>Timeless Co.</h1>
-
-    <nav class="buttons">
-
-      <button class='main'>
-        <a href="">Home</a>
-      </button>
-
-      <button class='alt'>
-        <a href="">Shop</a>
-      </button>
-
-      <button class='alt'>
-        <a href="">About</a>
-      </button>
-
-    </nav>
-
-    <!-- Slider main container -->
-    <div class="swiper">
-      <!-- Additional required wrapper -->
-      <div class="swiper-wrapper">
-        <!-- Slides -->
-        <div class="swiper-slide"><img src="images/horloge1.jpg" /></div>
-        <div class="swiper-slide"><img src="images/horloge2.jpg" /></div>
-        <div class="swiper-slide"><img src="images/horloge3.jpg" /></div>
-        <div class="swiper-slide"><img src="images/horloge4.jpg" /></div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
       </div>
-      <!-- If we need pagination -->
-      <div class="swiper-pagination"></div>
 
-      <!-- If we need navigation buttons -->
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
-    </div>
+      <h1 class="tussentitels">Hoi</h1>
 
-    <h1 class="tussentitels">Hoi</h1>
+      <div class="gallery">
+        <img src="images/horloge5.jpg" alt="" />
+        <img src="images/horloge6.jpg" alt="" />
+        <img src="images/horloge7.jpg" alt="" />
+        <img src="images/horloge8.jpg" alt="" />
+      </div>
+    </main>
 
-    <div class="gallery">
-      <img src="images/horloge5.jpg" alt="">
-      <img src="images/horloge6.jpg" alt="">
-      <img src="images/horloge7.jpg" alt="">
-      <img src="images/horloge8.jpg" alt="">
-    </div>
-    
-  </main>
+    <footer>
+      <div class="links">
+        <h2>Blijf hier weg!</h2>
+        <p>Timeless co.</p>
+        <p>Rue du Charron, 284</p>
+        <p>B-1420 Braine l'Alleud,</p>
+        <p>Belgium</p>
+        <p>+32 2 772 25 50</p>
+      </div>
 
-
-
-  <footer>
-    <div class="links">
-      <h2> Contact </h2>
-      <p>Timeless co.</p>
-      <p>Rue du Charron, 284</p>
-      <p>B-1420 Braine l'Alleud, </p>
-      <p>Belgium</p>
-      <p>+32 2 772 25 50</p>
-    </div>
-
-    <div class="rechts">
-      <h2>Openingsuren</h2>
-      <p>Maandag tot donderdag: 9u tot 18u</p>
-      <p>Vrijdag en Zaterdag: 9u tot 20u</p>
-      <p>Zondag: Gesloten</p>
-    </div>
-  </footer>
-
-</body>
-
+      <div class="rechts">
+        <h2>Openingsuren</h2>
+        <p>Maandag tot donderdag: 9u tot 18u</p>
+        <p>Vrijdag en Zaterdag: 9u tot 20u</p>
+        <p>Zondag: Gesloten</p>
+      </div>
+    </footer>
+  </body>
 </html>
